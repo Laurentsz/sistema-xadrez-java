@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../Digisystem/Udemy/src/com/company/Programa01.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/application/Programa.java">
           <value>
             <set />
@@ -13,7 +18,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Peca.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Posicao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Tabuleiro.java">
           <value>
             <set />
           </value>

@@ -3,7 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../Digisystem/Udemy/src/com/company/Programa01.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/chess/Color.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/application/Program.java">
           <value>
             <set />
           </value>
@@ -13,7 +28,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/application/UI.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Board.java">
           <value>
             <set />
           </value>
@@ -23,7 +48,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Piece.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Posicao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Position.java">
           <value>
             <set />
           </value>
@@ -34,6 +69,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/boardgame.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/ChessMatch.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/ChessPiece.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/Color.java">
           <value>
             <set />
           </value>

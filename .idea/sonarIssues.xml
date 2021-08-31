@@ -13,7 +13,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/out/production/Projetos/github/Laurentsz/Main.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/out/production/Projetos/github/Laurentsz/boardgame/Board.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/out/production/Projetos/github/Laurentsz/boardgame/Piece.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/out/production/Projetos/github/Laurentsz/chess/ChessMatch.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/out/production/Projetos/github/Laurentsz/chess/ChessPiece.class">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/chess/Color.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/Main.java">
           <value>
             <set />
           </value>
@@ -39,6 +69,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/Board.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/boardgame/BoardException.java">
           <value>
             <set />
           </value>
@@ -84,6 +119,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/Color.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/pieces/King.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/pieces/Rook.java">
           <value>
             <set />
           </value>

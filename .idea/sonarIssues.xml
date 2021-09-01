@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../Digisystem/Udemy/src/com/company/Programa01.java">
           <value>
             <set />
@@ -108,12 +113,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/ChessException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/ChessMatch.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/ChessPiece.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/github/Laurentsz/chess/ChessPosition.java">
           <value>
             <set />
           </value>

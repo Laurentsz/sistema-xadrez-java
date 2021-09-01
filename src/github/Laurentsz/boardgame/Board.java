@@ -48,9 +48,11 @@ public class Board {
     private boolean positionExists(int row, int column){
         return row >=0 && row < rows && column >=0 && column < columns;
     }
+
     public boolean positionExists(Position position){
         return positionExists(position.getRow(), position.getColumn());
     }
+
     public boolean thereIsApiece(Position position){
         if(!positionExists(position)){
             throw new BoardException("Error creating piece: Position not on the board");

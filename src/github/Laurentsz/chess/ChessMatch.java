@@ -1,6 +1,7 @@
 package github.Laurentsz.chess;
 
 import github.Laurentsz.boardgame.Board;
+import github.Laurentsz.boardgame.Piece;
 import github.Laurentsz.boardgame.Position;
 import github.Laurentsz.chess.pieces.King;
 import github.Laurentsz.chess.pieces.Rook;
@@ -23,6 +24,27 @@ public class ChessMatch {
         return mat;
     }
 
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition){
+        Position source = sourcePosition.toPosition();
+        Position target = targetPosition.toPosition();
+        validateSourcePosition(source);
+        Piece capturedPiece = makeMove(source, target);
+
+        return (ChessPiece) capturedPiece;
+    }
+
+    private Piece makeMove(Position source, Position target){
+        Piece piece = board.removePiece(source);
+        Piece capturedPiece = board.removePiece(target);
+        board.placePiece(piece, target);
+        return capturedPiece;
+    }
+
+    private void validateSourcePosition(Position position){
+        if(!board.thereIsApiece(position)){
+            throw new ChessException("There is no piece on source position");
+        }
+    }
     private void placeNewPiece(char column, int row, ChessPiece piece){
         board.placePiece(piece, new ChessPosition(column, row).toPosition());
     }

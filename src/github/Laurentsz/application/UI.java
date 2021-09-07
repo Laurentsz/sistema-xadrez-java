@@ -1,5 +1,6 @@
 package github.Laurentsz.application;
 
+import github.Laurentsz.chess.ChessMatch;
 import github.Laurentsz.chess.ChessPiece;
 import github.Laurentsz.chess.ChessPosition;
 import github.Laurentsz.chess.Color;
@@ -52,6 +53,13 @@ public class UI {
             System.out.println();
         }
         System.out.println("  a b c d e f g h");
+    }
+
+    public static void printMatch(ChessMatch match){
+        printBoard(match.getPieces());
+        System.out.println();
+        System.out.println("Turn: " + match.getTurn());
+        System.out.println("Player: " + match.getCurrentPlayer());
     }
 
     public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {

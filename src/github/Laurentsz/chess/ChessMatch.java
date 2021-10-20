@@ -6,11 +6,16 @@ import github.Laurentsz.boardgame.Position;
 import github.Laurentsz.chess.pieces.King;
 import github.Laurentsz.chess.pieces.Rook;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ChessMatch {
 
     private Board board;
     private int turn;
     private Color currentPlayer;
+    private List<Piece> piecesOnBoard= new ArrayList<>();
+    private List<Piece> capturedPieces = new ArrayList<>();
 
     public ChessMatch(){
         board = new Board(8,8);
@@ -57,6 +62,11 @@ public class ChessMatch {
         Piece piece = board.removePiece(source);
         Piece capturedPiece = board.removePiece(target);
         board.placePiece(piece, target);
+
+        if(capturedPiece != null){
+            piecesOnBoard.remove(capturedPiece);
+            capturedPieces.add(capturedPiece);
+        }
         return capturedPiece;
     }
 
@@ -83,6 +93,7 @@ public class ChessMatch {
         currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK :  Color.WHITE;
     }
     private void placeNewPiece(char column, int row, ChessPiece piece){
+        piecesOnBoard.add(piece);
         board.placePiece(piece, new ChessPosition(column, row).toPosition());
     }
 

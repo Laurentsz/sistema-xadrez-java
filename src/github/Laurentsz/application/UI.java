@@ -64,7 +64,17 @@ public class UI {
         printCapturedPieces(capturedPieces);
         System.out.println();
         System.out.println("Turn: " + match.getTurn());
-        System.out.println("Player: " + match.getCurrentPlayer());
+        if(!match.getCheckMate()){
+            System.out.println("Player: " + match.getCurrentPlayer());
+            if(match.getCheck()){
+                System.out.println("CHECK!");
+            }
+        }
+        else{
+            System.out.println("CHECKMATE!");
+            System.out.println("Winner: " + match.getCurrentPlayer());
+        }
+
     }
 
     public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
